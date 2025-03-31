@@ -8,7 +8,7 @@
 #import "ViewController.h"
 #import <HyphenateChat/HyphenateChat.h>
 
-@interface ViewController ()
+@interface ViewController ()<EMChatManagerDelegate>
 
 @property (nonatomic, strong) UIButton *testButton; // 添加按钮属性
 @property (nonatomic, strong) UIButton *sendMessageButton; // 添加按钮属性
@@ -36,6 +36,8 @@
     [self.sendMessageButton addTarget:self action:@selector(messageButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
     self.sendMessageButton.frame = CGRectMake(100, 200, 200,44);
     [self.view addSubview: self.sendMessageButton];
+    
+    [[EMClient sharedClient].chatManager addDelegate:self delegateQueue:nil];
 }
 
 // 按钮点击事件处理
@@ -67,6 +69,30 @@
             NSLog(@"发送失败: %@", error.errorDescription);
         }
     }];
+}
+
+- (void)messagesDidReceive:(NSArray *)aMessages
+{
+    // 收到消息，遍历消息列表。
+    for (EMChatMessage *message in aMessages) {
+        if (message.body.type==EMMessageBodyTypeText) {
+            // 确认是文本消息后，可以将消息体转换为文本消息体类型
+            EMTextMessageBody *textBody = (EMTextMessageBody *)message.body;
+            // 获取文本消息内容
+            NSString *text = textBody.text;
+            
+            NSLog(@"收到文本消息: %@", text);
+            NSLog(@"发送者: %@", message.from);
+            NSLog(@"会话ID: %@", message.conversationId);
+        }
+    }
+}
+
+// 移除代理。
+
+- (void)dealloc
+{
+    [[EMClient sharedClient].chatManager removeDelegate:self];
 }
 
 @end
