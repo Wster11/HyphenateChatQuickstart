@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-HyphenateChatQuickstart/Pods-HyphenateChatQuickstart-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/aosl/aosl.framework/aosl
+${PODS_XCFRAMEWORKS_BUILD_DIR}/HyphenateChat/HyphenateChat.framework/HyphenateChat

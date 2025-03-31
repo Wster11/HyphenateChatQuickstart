@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2F7F7AAA1C81C1ECBEECAABE3C3609AC /* AgoraInfra_iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6AC986F8353D7D8FD502D9D6E938C5AA /* Build configuration list for PBXAggregateTarget "AgoraInfra_iOS" */;
+			buildPhases = (
+				0D149E6301791F149B3D66666328CB01 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AgoraInfra_iOS;
+		};
+		303418B2D7938424A56D1250A07CE646 /* HyphenateChat */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A552E421804F76B77A01003ADC79FB7 /* Build configuration list for PBXAggregateTarget "HyphenateChat" */;
+			buildPhases = (
+				450E9597385DBDDBC88E398AA8624DDC /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				E3B616604775668F2DA889016AFE3D6B /* PBXTargetDependency */,
+			);
+			name = HyphenateChat;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		778C020383E80B26339CC2B4B2E1521A /* Pods-HyphenateChatQuickstart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0487CE58677348444620B5FE4B8E1 /* Pods-HyphenateChatQuickstart-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2547447AA4A98DB942092AECA717969C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303418B2D7938424A56D1250A07CE646;
+			remoteInfo = HyphenateChat;
+		};
+		A017B9276AB02C8A8329C47A784B03B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7F7AAA1C81C1ECBEECAABE3C3609AC;
+			remoteInfo = AgoraInfra_iOS;
+		};
+		F5DFB4551CF7A1DBF4BC3242531FB988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F7F7AAA1C81C1ECBEECAABE3C3609AC;
+			remoteInfo = AgoraInfra_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33E0487CE58677348444620B5FE4B8E1 /* Pods-HyphenateChatQuickstart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyphenateChatQuickstart-dummy.m"; sourceTree = "<group>"; };
+		342BDC12E535D355CCA98B234B5676D2 /* Pods-HyphenateChatQuickstart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyphenateChatQuickstart-frameworks.sh"; sourceTree = "<group>"; };
+		44843202C35A82059F905B1F36ABFE5F /* HyphenateChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyphenateChat.debug.xcconfig; sourceTree = "<group>"; };
+		4581C5C5D087B89009C03EB33D0B6527 /* AgoraInfra_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraInfra_iOS.debug.xcconfig; sourceTree = "<group>"; };
+		5A301FB86C5D75C7EE0601DBE7C35439 /* libPods-HyphenateChatQuickstart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HyphenateChatQuickstart.a"; path = "libPods-HyphenateChatQuickstart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7E112CD062310BC2C5D755A7A791ED9 /* Pods-HyphenateChatQuickstart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyphenateChatQuickstart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C59C1B3E006536CCAF19E5081B913506 /* HyphenateChat-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HyphenateChat-xcframeworks.sh"; sourceTree = "<group>"; };
+		C665025146C4E8F1DEF08DA388233386 /* AgoraInfra_iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AgoraInfra_iOS-xcframeworks.sh"; sourceTree = "<group>"; };
+		C9C3DB0652FC1C0E9FF525153DDD5860 /* AgoraInfra_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraInfra_iOS.release.xcconfig; sourceTree = "<group>"; };
+		CB0AF2FC68C8E23A2E6F7EEAFB639472 /* Pods-HyphenateChatQuickstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyphenateChatQuickstart.debug.xcconfig"; sourceTree = "<group>"; };
+		D8A23954181E7E72B5F14293CAA014F0 /* Pods-HyphenateChatQuickstart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyphenateChatQuickstart-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8C9D4D99B25A58004FE5B6B67C9F185 /* HyphenateChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyphenateChat.release.xcconfig; sourceTree = "<group>"; };
+		DDCC9376F60F9CD3F9B49028054CC16C /* Pods-HyphenateChatQuickstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyphenateChatQuickstart.release.xcconfig"; sourceTree = "<group>"; };
+		E5A15A3DA2DF5156666CEA44657F22A5 /* HyphenateChat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = HyphenateChat.xcframework; sourceTree = "<group>"; };
+		F8885C3E75AC4BB83A51755F4EA8C857 /* aosl.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = aosl.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C365845B96889F7B94DD72E8FA5C6139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077AAD3727796FE88D8BBCBAA1E1C044 /* Pods-HyphenateChatQuickstart */ = {
+			isa = PBXGroup;
+			children = (
+				B7E112CD062310BC2C5D755A7A791ED9 /* Pods-HyphenateChatQuickstart-acknowledgements.markdown */,
+				D8A23954181E7E72B5F14293CAA014F0 /* Pods-HyphenateChatQuickstart-acknowledgements.plist */,
+				33E0487CE58677348444620B5FE4B8E1 /* Pods-HyphenateChatQuickstart-dummy.m */,
+				342BDC12E535D355CCA98B234B5676D2 /* Pods-HyphenateChatQuickstart-frameworks.sh */,
+				CB0AF2FC68C8E23A2E6F7EEAFB639472 /* Pods-HyphenateChatQuickstart.debug.xcconfig */,
+				DDCC9376F60F9CD3F9B49028054CC16C /* Pods-HyphenateChatQuickstart.release.xcconfig */,
+			);
+			name = "Pods-HyphenateChatQuickstart";
+			path = "Target Support Files/Pods-HyphenateChatQuickstart";
+			sourceTree = "<group>";
+		};
+		43FD7222A0996549E6AD9B30348D0E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A301FB86C5D75C7EE0601DBE7C35439 /* libPods-HyphenateChatQuickstart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77280749A3D4951AD1386076082DB7EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				077AAD3727796FE88D8BBCBAA1E1C044 /* Pods-HyphenateChatQuickstart */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		870231449A4BACE9C54DF33121289F1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8885C3E75AC4BB83A51755F4EA8C857 /* aosl.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDAE5D02E1AA767B590003717431FA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C665025146C4E8F1DEF08DA388233386 /* AgoraInfra_iOS-xcframeworks.sh */,
+				4581C5C5D087B89009C03EB33D0B6527 /* AgoraInfra_iOS.debug.xcconfig */,
+				C9C3DB0652FC1C0E9FF525153DDD5860 /* AgoraInfra_iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AgoraInfra_iOS";
+			sourceTree = "<group>";
+		};
+		A4150B2ECDF8F9B757FEF58E7AA2F807 /* AgoraInfra_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				870231449A4BACE9C54DF33121289F1B /* Frameworks */,
+				9CDAE5D02E1AA767B590003717431FA5 /* Support Files */,
+			);
+			name = AgoraInfra_iOS;
+			path = AgoraInfra_iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D30502DD7CBF5DF118BFF49CA7FC616A /* Pods */,
+				43FD7222A0996549E6AD9B30348D0E8A /* Products */,
+				77280749A3D4951AD1386076082DB7EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DB45DB207E11FBCF684DF208E4B10F /* HyphenateChat */ = {
+			isa = PBXGroup;
+			children = (
+				FE3E5FC685A07D380E1A58C05574E39D /* Frameworks */,
+				D7C7AF1C752DC50E42AD9C85451AF342 /* Support Files */,
+			);
+			name = HyphenateChat;
+			path = HyphenateChat;
+			sourceTree = "<group>";
+		};
+		D30502DD7CBF5DF118BFF49CA7FC616A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4150B2ECDF8F9B757FEF58E7AA2F807 /* AgoraInfra_iOS */,
+				D1DB45DB207E11FBCF684DF208E4B10F /* HyphenateChat */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7C7AF1C752DC50E42AD9C85451AF342 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59C1B3E006536CCAF19E5081B913506 /* HyphenateChat-xcframeworks.sh */,
+				44843202C35A82059F905B1F36ABFE5F /* HyphenateChat.debug.xcconfig */,
+				D8C9D4D99B25A58004FE5B6B67C9F185 /* HyphenateChat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HyphenateChat";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE3E5FC685A07D380E1A58C05574E39D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A15A3DA2DF5156666CEA44657F22A5 /* HyphenateChat.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9DF847437C6D8923A411A6F2BAEED633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B4D5F9AA5ACB18E6CC6D0107D296B2AE /* Pods-HyphenateChatQuickstart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EF2092EAB682EF8886A20B9D453F26 /* Build configuration list for PBXNativeTarget "Pods-HyphenateChatQuickstart" */;
+			buildPhases = (
+				9DF847437C6D8923A411A6F2BAEED633 /* Headers */,
+				7FA76E8BA9CF9DEEEBD599831520C296 /* Sources */,
+				C365845B96889F7B94DD72E8FA5C6139 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC5591A52B81C520B829D07C9226EC3 /* PBXTargetDependency */,
+				8BC634F9744890385ED71D3B49A0CF2B /* PBXTargetDependency */,
+			);
+			name = "Pods-HyphenateChatQuickstart";
+			productName = "Pods-HyphenateChatQuickstart";
+			productReference = 5A301FB86C5D75C7EE0601DBE7C35439 /* libPods-HyphenateChatQuickstart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 43FD7222A0996549E6AD9B30348D0E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F7F7AAA1C81C1ECBEECAABE3C3609AC /* AgoraInfra_iOS */,
+				303418B2D7938424A56D1250A07CE646 /* HyphenateChat */,
+				B4D5F9AA5ACB18E6CC6D0107D296B2AE /* Pods-HyphenateChatQuickstart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D149E6301791F149B3D66666328CB01 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AgoraInfra_iOS/AgoraInfra_iOS-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AgoraInfra_iOS/AgoraInfra_iOS-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AgoraInfra_iOS/AgoraInfra_iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		450E9597385DBDDBC88E398AA8624DDC /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HyphenateChat/HyphenateChat-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/HyphenateChat/HyphenateChat-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/HyphenateChat/HyphenateChat-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA76E8BA9CF9DEEEBD599831520C296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778C020383E80B26339CC2B4B2E1521A /* Pods-HyphenateChatQuickstart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CC5591A52B81C520B829D07C9226EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraInfra_iOS;
+			target = 2F7F7AAA1C81C1ECBEECAABE3C3609AC /* AgoraInfra_iOS */;
+			targetProxy = F5DFB4551CF7A1DBF4BC3242531FB988 /* PBXContainerItemProxy */;
+		};
+		8BC634F9744890385ED71D3B49A0CF2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HyphenateChat;
+			target = 303418B2D7938424A56D1250A07CE646 /* HyphenateChat */;
+			targetProxy = 2547447AA4A98DB942092AECA717969C /* PBXContainerItemProxy */;
+		};
+		E3B616604775668F2DA889016AFE3D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraInfra_iOS;
+			target = 2F7F7AAA1C81C1ECBEECAABE3C3609AC /* AgoraInfra_iOS */;
+			targetProxy = A017B9276AB02C8A8329C47A784B03B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		208CC9F06F189311419865177BA58120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB0AF2FC68C8E23A2E6F7EEAFB639472 /* Pods-HyphenateChatQuickstart.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46E87B20F9421BA67E1813BC597355E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCC9376F60F9CD3F9B49028054CC16C /* Pods-HyphenateChatQuickstart.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531AB9B51913EE274022D67EB63CB4E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5545556269BCA6E286EA76DA0EE3217F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C9D4D99B25A58004FE5B6B67C9F185 /* HyphenateChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7873A6C719CF8E52115CBF715E5C6EA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4581C5C5D087B89009C03EB33D0B6527 /* AgoraInfra_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8243B40C58F261212126AF76363BF5C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44843202C35A82059F905B1F36ABFE5F /* HyphenateChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A8BBD4B410ECD25E82E1A26EA47A83F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C3DB0652FC1C0E9FF525153DDD5860 /* AgoraInfra_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06A0B8B8C2AC1F57A3C67ACD4FEC0B3 /* Debug */,
+				531AB9B51913EE274022D67EB63CB4E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A552E421804F76B77A01003ADC79FB7 /* Build configuration list for PBXAggregateTarget "HyphenateChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8243B40C58F261212126AF76363BF5C0 /* Debug */,
+				5545556269BCA6E286EA76DA0EE3217F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AC986F8353D7D8FD502D9D6E938C5AA /* Build configuration list for PBXAggregateTarget "AgoraInfra_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7873A6C719CF8E52115CBF715E5C6EA7 /* Debug */,
+				A8BBD4B410ECD25E82E1A26EA47A83F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72EF2092EAB682EF8886A20B9D453F26 /* Build configuration list for PBXNativeTarget "Pods-HyphenateChatQuickstart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				208CC9F06F189311419865177BA58120 /* Debug */,
+				46E87B20F9421BA67E1813BC597355E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

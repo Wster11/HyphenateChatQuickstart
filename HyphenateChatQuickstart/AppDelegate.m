@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import <HyphenateChat/HyphenateChat.h>
 
 @interface AppDelegate ()
 
@@ -16,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // appkey 替换成你在环信即时通讯 IM 管理后台注册应用中的 App Key
+        EMOptions *options = [EMOptions optionsWithAppkey:@"easemob-demo#support"];
+        // apnsCertName是证书名称，可以先传 nil，等后期配置 APNs 推送时在传入证书名称
+        options.apnsCertName = nil;
+        options.enableConsoleLog = YES;
+        [[EMClient sharedClient] initializeSDKWithOptions:options];
     return YES;
 }
 

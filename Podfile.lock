@@ -1,0 +1,20 @@
+PODS:
+  - AgoraInfra_iOS (1.2.13)
+  - HyphenateChat (4.13.0):
+    - AgoraInfra_iOS (= 1.2.13)
+
+DEPENDENCIES:
+  - HyphenateChat
+
+SPEC REPOS:
+  trunk:
+    - AgoraInfra_iOS
+    - HyphenateChat
+
+SPEC CHECKSUMS:
+  AgoraInfra_iOS: 65e11a2183ab7836258768868d06058c22701b13
+  HyphenateChat: c2ecd32ae5328c027d8e270bdbe63c0902cfc828
+
+PODFILE CHECKSUM: 6177b764874fae736cfc59dd489f6c6f100ffa98
+
+COCOAPODS: 1.10.1
